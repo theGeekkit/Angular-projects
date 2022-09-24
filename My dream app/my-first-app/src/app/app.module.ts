@@ -1,6 +1,7 @@
 import { NgModule } from '@angular/core';
 import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
+// import {HttpModule} from '@angular/http';
 
 
 
@@ -21,7 +22,8 @@ import { SuccessAlertComponent } from './success-alert/success-alert.component';
   ],
   imports: [
     BrowserModule,
-    FormsModule
+    FormsModule,
+    // HttpModule
   ],
   providers: [],
   bootstrap: [AppComponent]
